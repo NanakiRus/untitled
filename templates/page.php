@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+<div><?php echo $this->data['leftMenu'];?></div>
+<div><?php echo $this->data['rightMenu'];?></div>
 
 </body>
 </html>
