@@ -1,3 +1,7 @@
 <?php
 
 require __DIR__ . '/class/View.php';
+
+$view new View();
+
+$arrLinks = file(__DIR__ . '/data/data.txt');
