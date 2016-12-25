@@ -13,3 +13,5 @@ $something = $view->render(__DIR__ . '/templates/links.php');
 $view->assign('leftMenu', $something);
 
 $something2 = $view->render(__DIR__ . '/templates/links2.php');
+
+$view->assign('rightMenu', $something2);
