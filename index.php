@@ -8,4 +8,4 @@ $arrLinks = file(__DIR__ . '/data/data.txt');
 
 $view->assign('links', $arrLinks);
 
-$view->display(__DIR__ . '/templates/links.php');
+$something = $view->render(__DIR__ . '/templates/links.php');
