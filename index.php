@@ -9,3 +9,5 @@ $arrLinks = file(__DIR__ . '/data/data.txt');
 $view->assign('links', $arrLinks);
 
 $something = $view->render(__DIR__ . '/templates/links.php');
+
+$view->assign('leftMenu', $something);
